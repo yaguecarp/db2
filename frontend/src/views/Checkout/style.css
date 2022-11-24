@@ -1,0 +1,24 @@
+.checkout-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-msj{
+    text-align: center;
+    border: 3px solid #3355ff;
+    padding: 100px;
+}
+
+.checkout-msj h2{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.checkout-msj h3{
+    font-size: 50px;
+    margin: 10px;
+    color: #227733;
+}

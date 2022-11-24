@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #FFFFFF; */
+    background-image: url("../../assets//img//Psychiatric-Disorder-1-1024x768.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: white;
+    border: 2px solid #3355FF;
+
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 30px;
+
+
+}
+
+.form-container h1{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #3355FF;
+    color: #3355FF;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    font-size: 40px;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.email-input{
+    height: 30px;
+    padding: 12px;
+    font-size: 24px;
+    outline: none;
+}
+
+.password-input{
+    height: 30px;
+    padding: 12px;
+    font-size: 24px;
+    outline: none;
+}
+
+.boton-submit{
+    height: 80px;
+    font-size: 32px;
+    outline: none;
+    background-color:  #3355FF;
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 5px;
+}

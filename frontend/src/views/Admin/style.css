@@ -1,0 +1,51 @@
+.admin-pagos{
+    margin-top: 100px;
+}
+
+.admin-pagos h1{
+    font-size: 60px;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+.item-pago{
+    border: 1px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.admin-facturas{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.admin-facturas h1{
+    font-size: 60px;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+.item-factura{
+    padding: 5px;
+    margin-top: 20px;
+    border-bottom: 5px solid #3355FF;
+}
+
+.item-factura h2{
+    margin-top: 3px;
+}
+
+.item-detalle{
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.item-detalle h2{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.item-detalle h3{
+    margin-top: 3px;
+}

@@ -1,0 +1,52 @@
+.profile{
+    margin-top: 100px;
+    display: flex;
+    padding: 2px;
+    min-height: 100vh;
+}
+
+.datos-container{
+    width: 50%;
+}
+
+.datos{
+    min-height: 80vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid ;
+}
+
+.datos h1{
+    font-size: 60px;
+    border-bottom: 1px solid;
+}
+
+.datos h2{
+    border: 1px solid;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+.pedidos{
+    min-height: 80vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid ;
+    padding: 12px;
+}
+
+.pedidos h1{
+    font-size: 60px;
+    border-bottom: 1px solid;
+
+}
+
+.pedido-item{
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 10px;
+}
